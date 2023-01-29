@@ -1,0 +1,156 @@
+@font-face{
+    font-family: fonts;
+    src: url(/assets/fonts/Ubuntu-Bold.ttf);
+}
+@font-face{
+    font-family: fonts-1;
+    src: url(/assets/fonts/Ubuntu-Regular.ttf);
+}
+.monthly-plan{
+    margin-left: 30px;
+}
+.first-boxes{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 150px;
+    margin-top:30px ;
+    margin-left: 30px;
+}
+.first-boxes div{
+    width:30%;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3)
+}
+.first-boxes div p{
+    position: relative;
+    top:50px;
+}
+.arcade:hover{
+    border: 1px solid blueviolet;
+}
+.advance:hover{
+    border: 1px solid blueviolet;
+}
+.pro:hover{
+    border: 1px solid blueviolet;
+}
+h2{
+    margin: 10px;
+}
+nav{
+    position: relative;
+    bottom: 25px;
+    margin: 10px;
+}
+nav p:nth-child(2){
+    top:50px;
+    color:grey;
+    z-index: 2;
+    font-size: 12px;
+}
+nav p:nth-child(3){
+    font-size: 12px;
+}
+.first-boxes div:active{
+    border: 2px solid blueviolet;
+}
+.contain{
+    border: 1px solid grey;
+    width: 400px;
+    height: 40px;
+    margin-left:30px ;
+    margin-top:10px ;
+}
+.toggler{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 10px;
+}
+.oval{
+    border: 1px solid blue;
+    background-color: darkblue;
+    border-radius: 43%;
+    width: 40px;
+    height: 20px;
+}
+.move{
+    background-color: white;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: relative;
+    top:3px;
+}.back{
+    color: grey;
+    background-color: white;
+    font-family: fonts;
+    width:100px;
+    height: 35px;
+    text-align: center;
+    position: absolute;
+    bottom:27px;
+    left: 290px;
+    border: 0;
+    cursor: pointer;
+}
+.monthly{
+    color: darkblue;
+}
+@media (max-width:413px){
+    .monthly-plan{
+        margin:0;
+    }
+    .content{
+        margin: 0;
+    }
+    .first-boxes{
+        flex-direction: column;
+        margin-left: 8px;
+        gap: 10px;
+        height: 500px;
+        justify-content: start;
+        font-family: fonts;
+    }
+    .first-boxes div{
+        width: 300px;
+        height: 80px;
+    }
+    h2{
+        margin-top: 15px;
+        margin-left: 24px;
+    }
+    nav{
+        position: relative;
+        left: 75px;
+        bottom:95px;
+    }
+    nav p:nth-child(2){
+        color: hsl(229, 24%, 87%);
+        font-size: 12px;
+    }
+    nav p:nth-child(3){
+        font-size: 12px;
+    }
+    .contain{
+        width: 300px;
+        position:relative;
+        bottom: 230px;
+        right: 23px;
+        border: 2px solid hsl(229, 24%, 87%);
+        border-radius: 5px;
+        background-color: hsl(229, 24%, 87%);
+    }
+    .back{
+       position: absolute;
+       left: 0;
+       bottom: 7px;
+    }
+    .details{
+        height: 500px;
+    }
+}

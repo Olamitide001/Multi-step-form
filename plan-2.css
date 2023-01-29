@@ -1,0 +1,174 @@
+.first-boxes div p{
+    position: relative;
+    top:40px;
+}
+.move-it{
+    position: relative;
+    left:27px;
+    top: 2px;
+}
+
+/* summary LAYOUT */
+.monthly-summary{
+    margin-left: 30px;
+}
+.boxes{
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 400px;
+    height: 150px;
+    background-color: hsl(229, 24%, 94%);
+    border: 1px solid hsl(229, 24%, 94%);
+    border-radius: 5px;
+}
+.arcade-mon{
+    width:100%;
+    height: 70px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.arcade-mon h3{
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+}
+.arcade-mon span{
+    position: absolute;
+    right:110px;
+    margin-top: 5px;
+}
+.arcade-mon a{
+    color: grey;
+    font-size: 13px;
+    text-decoration: underline;
+    position: relative;
+    left:10px;
+    top: 10px;
+}
+.line{
+    border: 0.5px solid grey;
+    width: 340px;
+    position: relative;
+    left: 30px;
+    opacity: 0.2;
+}
+.online h3{
+    font-size: 13px;
+    color: grey;
+    position: relative;
+    top: 15px;
+    margin-left: 10px;
+}
+.online span{
+    position: absolute;
+    right:110px;
+    bottom: 235px;
+    margin-top: 5px;
+    font-size: 13px;
+    opacity: 0.8;
+    
+}
+.large h3{
+    font-size: 13px;
+    color: grey;
+    position: relative;
+    top: 30px;
+    margin-left: 10px;
+}
+.large span{
+    position: absolute;
+    right:110px;
+    bottom: 210px;
+    margin-top: 20px;
+    font-size: 13px;
+    opacity: 0.8;
+}
+.total{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 400px;
+    font-size: 13px;
+    height: 25px;
+}
+.total p{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: grey;
+}
+.total1 p{
+    position: relative;
+    left:342px;
+    width: 80px;
+    bottom: 27px;
+    font-size: 16px;
+    color: blueviolet;
+}
+@media (max-width:413px){
+    .monthly-summary{
+        margin: 0;
+    }
+    .boxes{
+        width: 250px;
+        margin:0 0 0 30px;
+
+    }
+    .total{
+        width: 300px;
+        margin: 20px 0 0 30px;
+    }
+    .total1 p{
+        position: absolute;
+        width: 100px;
+        left :213px; 
+        bottom: 40px;
+    }
+    .inform{
+        height: 360px;
+    }
+    .line{
+        margin: 0;
+        width: 200px;
+    }
+    .sum span{
+        position: absolute;
+        right: 45px;
+
+    }
+}
+
+/* yearly summary layout */
+.year{
+    margin-right: 15px;
+}
+/* Thanks Layout */
+.thanks{
+    text-align: center;
+    margin-top: 150px;
+}
+.thanks p{
+    font-size: 24px;
+}
+.thanks-content{
+    margin-left: 40px;
+    font-size: 13px;
+    color: grey;
+    font-family: fonts-1;
+    margin-top: 20px;
+    width: 380px;
+    text-align: center;
+    line-height: 18px;
+    padding: 5px;
+}
+@media (max-width:413px){
+    .thanks{
+        margin-top: 70px;
+    }
+    img{
+        width: 50px;
+    }
+    .thanks-content{
+        font-size: 16px;
+        width: 280px;
+        margin: auto;
+    }
+}
